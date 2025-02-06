@@ -1,5 +1,8 @@
 import { useState } from 'react'
 
+import Header from './Components/Header'
+import Generator from "./Components/generator"
+
 import './App.css'
 
 function App() {
@@ -7,7 +10,8 @@ function App() {
 
   return (
     <>
-    <h1>AI generator frontend</h1>
+    <Header />
+    <Generator />
     </>
   )
 }

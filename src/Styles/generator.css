@@ -1,0 +1,51 @@
+.generator-container {
+    display: block;
+    grid-template-columns: repeat(1, auto, 1fr);
+    border: 2px solid red;
+    padding: 20px;
+    margin-top: 20%;
+    height: auto;
+}
+
+.generator-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.generator-text-area {
+    width: 100%;
+    max-width: 600px;
+    min-height: 150px;
+    padding: 15px;
+    font-family: 'Arial, sans-serif';
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    resize: vertical; /* Allow height resizing only */
+}
+
+.generator-text-area:focus {
+    border-color: #4A90E2; /* Blue border on focus */
+    box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+}
+
+.generator-btn {
+    padding: 10px 20px;
+    background-color: #4A90E2; /* Light blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Arial, sans-serif';
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.generator-audio {
+ 
+}
