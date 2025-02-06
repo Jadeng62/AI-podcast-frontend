@@ -16,7 +16,7 @@ const Generator = () => {
             headers: {
                 "Content-Type" : "application/json"
             },
-            body: JSON.stringify({})
+            body: JSON.stringify({input: textInput})
         })
         .then(res => res.text())
         .then(data => setInput(data))
